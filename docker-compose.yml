@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./backend
+    container_name: mcp_backend
+    restart: unless-stopped
+    ports:
+      - "8001:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: mcp_frontend
+    restart: unless-stopped
+    network_mode: "host"
+    depends_on:
+      - backend

@@ -1,0 +1,13 @@
+[project]
+name = "mcp-fact-server"
+version = "1.0.0"
+description = "A simple MCP-compliant server that provides random facts."
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -115,6 +115,7 @@ For a direct answer: `What is the capital of France?` or `Write a short poem.`
 
 ## Project Structure
 
+```bash
 .
 ├── backend/
 │ ├── Dockerfile
@@ -132,6 +133,7 @@ For a direct answer: `What is the capital of France?` or `Write a short poem.`
 ├── MCP_shit.png
 ├── docker-compose.yml
 └── README.md
+```
 
 ## Key Learnings & Observations
 
